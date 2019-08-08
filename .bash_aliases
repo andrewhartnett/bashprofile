@@ -32,9 +32,5 @@ function gitLatestTag()
     git describe --tags
 }
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
 # Fun
 alias weather="curl wttr.in"
